@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ledger-web-signing/static/css/main.cfda8877.chunk.css",
-    "main.js": "/ledger-web-signing/static/js/main.7ea28468.chunk.js",
-    "main.js.map": "/ledger-web-signing/static/js/main.7ea28468.chunk.js.map",
-    "runtime-main.js": "/ledger-web-signing/static/js/runtime-main.0e159a03.js",
-    "runtime-main.js.map": "/ledger-web-signing/static/js/runtime-main.0e159a03.js.map",
-    "static/css/2.266e55a5.chunk.css": "/ledger-web-signing/static/css/2.266e55a5.chunk.css",
-    "static/js/2.a36fd521.chunk.js": "/ledger-web-signing/static/js/2.a36fd521.chunk.js",
-    "static/js/2.a36fd521.chunk.js.map": "/ledger-web-signing/static/js/2.a36fd521.chunk.js.map",
-    "index.html": "/ledger-web-signing/index.html",
-    "precache-manifest.214bf82915a360d7f99b747b7a590103.js": "/ledger-web-signing/precache-manifest.214bf82915a360d7f99b747b7a590103.js",
-    "service-worker.js": "/ledger-web-signing/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/ledger-web-signing/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.cfda8877.chunk.css.map": "/ledger-web-signing/static/css/main.cfda8877.chunk.css.map"
+    "main.css": "/Ledger-Web-Signing/static/css/main.cfda8877.chunk.css",
+    "main.js": "/Ledger-Web-Signing/static/js/main.afd0836e.chunk.js",
+    "main.js.map": "/Ledger-Web-Signing/static/js/main.afd0836e.chunk.js.map",
+    "runtime-main.js": "/Ledger-Web-Signing/static/js/runtime-main.48c2a2ac.js",
+    "runtime-main.js.map": "/Ledger-Web-Signing/static/js/runtime-main.48c2a2ac.js.map",
+    "static/css/2.266e55a5.chunk.css": "/Ledger-Web-Signing/static/css/2.266e55a5.chunk.css",
+    "static/js/2.b930d199.chunk.js": "/Ledger-Web-Signing/static/js/2.b930d199.chunk.js",
+    "static/js/2.b930d199.chunk.js.map": "/Ledger-Web-Signing/static/js/2.b930d199.chunk.js.map",
+    "index.html": "/Ledger-Web-Signing/index.html",
+    "precache-manifest.4452adddc106a515aeaadb9bdd860851.js": "/Ledger-Web-Signing/precache-manifest.4452adddc106a515aeaadb9bdd860851.js",
+    "service-worker.js": "/Ledger-Web-Signing/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/Ledger-Web-Signing/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.cfda8877.chunk.css.map": "/Ledger-Web-Signing/static/css/main.cfda8877.chunk.css.map"
   }
 }
