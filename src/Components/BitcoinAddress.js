@@ -21,7 +21,7 @@ class BitcoinAddress extends React.Component {
     request(options, function (error, response, body) {
       if (error) throw new Error(error);
 
-      newBalance = body / 100000000;
+      newBalance = body;
     });
     this.setState({
       balance: newBalance
