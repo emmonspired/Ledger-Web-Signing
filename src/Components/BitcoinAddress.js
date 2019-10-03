@@ -1,6 +1,6 @@
 import React from 'react';
 import * as bitcoinjs from 'bitcoinjs-lib';
-const request = require("request");
+const request = require("request-promise");
 class BitcoinAddress extends React.Component {
   constructor(props){
     super(props);
@@ -10,27 +10,24 @@ class BitcoinAddress extends React.Component {
     this.fetchBalance = this.fetchBalance.bind(this);
 
     this.state = {
-      balance: "loading...",
+      balance: 0,
       address: this.pubKeyToAddress()
     }
   }
 
-  fetchBalance(){
-    let options = { method: 'GET', url: 'https://blockchain.info/q/addressbalance/' + this.state.address};
-    let newBalance = 0;
-    request(options, function (error, response, body) {
-      if (error) throw new Error(error);
-
-      newBalance = body;
-    });
-    this.setState({
-      balance: newBalance
-    })
-
+  fetchBalance(address){
+    let options = { method: 'GET', url: 'https://blockchain.info/q/addressbalance/' + address};
+    let callback = function(err, res, body){
+      if (err) throw new Error(err);
+      this.setState({
+        balance: body / 100000000
+      })
+    }.bind(this);
+    request(options, callback);
   }
 
   componentDidMount(){
-    this.fetchBalance();
+    this.fetchBalance(this.state.address);
   }
 
   pubKeyToAddress(){
