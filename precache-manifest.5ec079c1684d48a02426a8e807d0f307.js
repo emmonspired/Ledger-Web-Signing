@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3710875ac81ab266b375ce9739a841c",
+    "revision": "50f3f383d8d470f62235601fb0260e88",
     "url": "/Ledger-Web-Signing/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ledger-Web-Signing/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "417cb6a05053d12479f1",
+    "revision": "46672cfbbad3806fca1c",
     "url": "/Ledger-Web-Signing/static/css/main.cfda8877.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ledger-Web-Signing/static/js/2.6f0c0488.chunk.js"
   },
   {
-    "revision": "417cb6a05053d12479f1",
-    "url": "/Ledger-Web-Signing/static/js/main.6a224314.chunk.js"
+    "revision": "46672cfbbad3806fca1c",
+    "url": "/Ledger-Web-Signing/static/js/main.6e5f4ead.chunk.js"
   },
   {
     "revision": "77b53858547358ef06e6",

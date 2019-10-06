@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ledger-Web-Signing/precache-manifest.2fd42ebc5da3f555688a7abf9dd4acb7.js"
+  "/Ledger-Web-Signing/precache-manifest.5ec079c1684d48a02426a8e807d0f307.js"
 );
 
 self.addEventListener('message', (event) => {
