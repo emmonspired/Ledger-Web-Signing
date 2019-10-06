@@ -198,7 +198,7 @@ render(){
   return (
     <Container className="App">
       <Jumbotron>
-        <h1>Leger Signing Tool</h1>
+        <h1>Ledger Signing Tool</h1>
       </Jumbotron>
           {settings}
           {addressTable}
