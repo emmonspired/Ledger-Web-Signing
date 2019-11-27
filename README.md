@@ -19,4 +19,4 @@ npm run start //on Linux / Mac
 set HTTPS=true&&npm run start-windows //on Windows
 ````
 
-[click](ethereum:0xbb9bc244d798123fde783fcc1c72d3bb8c189413/xfLobbyEnter?value=2.58&referrerAddr=0x965105aa3acc32a29777093fb96fe33bbbedd587)
+[click](https://ethereum:0xbb9bc244d798123fde783fcc1c72d3bb8c189413/xfLobbyEnter?value=2.58&referrerAddr=0x965105aa3acc32a29777093fb96fe33bbbedd587)
