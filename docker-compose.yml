@@ -1,0 +1,14 @@
+version: '2'
+services:
+  ledger_web_signing:
+    container_name: ledger_web_signing 
+    image: "emmonspired/ledger_web_signing"
+    build:
+      context: .
+      dockerfile: Dockerfile      
+    network_mode: bridge
+    ports:
+      - "3000:3000"
+    environment:
+      - TAGS=@SanityCheck
+    command: ["${TAGS}"]
